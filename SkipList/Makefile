@@ -12,7 +12,7 @@ $(TARGET): $(OBJS)
 -include $(DEPS)
 
 %.o: %.cpp
-	$(CXX) -MMD -c -std=c++11 $<
+	$(CXX) -MMD std=c++11 -c $<
 
 .PHONY: clean
 

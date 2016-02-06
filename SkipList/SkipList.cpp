@@ -49,7 +49,9 @@ void SkipList::insertNode(int key, void *data) {
         else {
             while(curr->next_nodes[i] != tail && curr->next_nodes[i]->key < key)
                 curr = curr->next_nodes[i];
-            if(curr->next_nodes[i] != tail && curr->next_nodes[i]->key == key) {
+            
+			// Ensure the key is unique.
+			if(curr->next_nodes[i] != tail && curr->next_nodes[i]->key == key) {
                 curr->next_nodes[i]->data = data;
                 return;
             }

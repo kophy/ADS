@@ -5,7 +5,7 @@ typedef struct SkipListNode {
     int key;
     void *data;
     int level;
-    SkipListNode **next_nodes;
+    SkipListNode **next_nodes; // more than one successor
 } SkipListNode;
 
 class SkipList {

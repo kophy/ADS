@@ -32,7 +32,7 @@ SkipList::~SkipList(void) {
 int SkipList::RandomLevel(void) {
     int level = 0;
 	
-	// Geometric distribution satisfying p = 1/2
+    // Geometric distribution satisfying p = 1/2
     while(rand() % 2 && level < MAX_LEVEL - 1)
         ++level;
     return level;
@@ -50,8 +50,8 @@ void SkipList::insertNode(int key, void *data) {
             while(curr->next_nodes[i] != tail && curr->next_nodes[i]->key < key)
                 curr = curr->next_nodes[i];
             
-			// Ensure the key is unique.
-			if(curr->next_nodes[i] != tail && curr->next_nodes[i]->key == key) {
+            // Ensure the key is unique.
+            if(curr->next_nodes[i] != tail && curr->next_nodes[i]->key == key) {
                 curr->next_nodes[i]->data = data;
                 return;
             }

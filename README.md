@@ -1,6 +1,7 @@
 # DSAF
-Data Structures and Algorithms for Fun
+Data Structures and Algorithms for Fun  
+请问您今天要来点算法吗？
 
-1. Skip List  
+1. Skip List 跳跃列表  
    - Wiki: https://en.wikipedia.org/wiki/Skip_list
    - My Blog: http://www.jianshu.com/p/fcd18946994e

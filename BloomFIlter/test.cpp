@@ -15,8 +15,8 @@ int main() {
     	bf->insertElement(data[i]);
     }
 	
-	cout << "Cathy is in the set: " << bf->existsElement("Cathy") << endl;
-	cout << "Eddie is in the set: " << bf->existsElement("Eddie") << endl;
+    cout << "Cathy is in the set: " << bf->existsElement("Cathy") << endl;
+    cout << "Eddie is in the set: " << bf->existsElement("Eddie") << endl;
 	
     delete bf;
     return 0;

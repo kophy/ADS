@@ -8,3 +8,4 @@ Data Structures and Algorithms for Fun
 
 2. Bloom Filter
   - Wiki： https://en.wikipedia.org/wiki/Bloom_filter
+  - My Blog： http://www.jianshu.com/p/8193d7dc8348

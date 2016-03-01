@@ -20,7 +20,7 @@ unsigned int BloomFilter::getSeed(unsigned int hash_index) {
     return atoi(seed.c_str());
 }
 
-unsigned int BloomFilter::BDKR_Hash(string s, unsigned int hash_index) {
+unsigned int BloomFilter::BKDR_Hash(string s, unsigned int hash_index) {
     const char *ps = s.c_str();
     unsigned int seed = getSeed(hash_index);
     unsigned int hash = 0;
@@ -33,7 +33,7 @@ unsigned int BloomFilter::BDKR_Hash(string s, unsigned int hash_index) {
 
 void BloomFilter::insertElement(string s) {
     for(int i = 0; i < _k; ++i) {
-        unsigned int index = BDKR_Hash(s, i);
+        unsigned int index = BKDR_Hash(s, i);
         // cout << index << endl;
         table[index] = true;
     }
@@ -41,7 +41,7 @@ void BloomFilter::insertElement(string s) {
 
 bool BloomFilter::existsElement(string s) {
     for(int i = 0; i < _k; ++i) {
-        unsigned int index = BDKR_Hash(s, i);
+        unsigned int index = BKDR_Hash(s, i);
         if(!table[index])
             return false;
     }

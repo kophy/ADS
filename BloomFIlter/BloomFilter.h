@@ -10,7 +10,7 @@ class BloomFilter {
         void insertElement(std::string s);
         bool existsElement(std::string s);
     private:
-        unsigned int BDKR_Hash(std::string s, unsigned int i);
+        unsigned int BKDR_Hash(std::string s, unsigned int i);
         unsigned int getSeed(unsigned int hash_index);
         std::vector<bool> table;
         unsigned int _m;

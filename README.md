@@ -9,3 +9,7 @@ Data Structures and Algorithms for Fun
 2. Bloom Filter
   - Wiki： https://en.wikipedia.org/wiki/Bloom_filter
   - My Blog： http://www.jianshu.com/p/8193d7dc8348
+
+3. Union Find Set
+   - Wiki：https://en.wikipedia.org/wiki/Disjoint-set_data_structure
+   - My Blog：http://www.jianshu.com/p/b5b8d488266e

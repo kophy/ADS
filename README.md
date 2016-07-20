@@ -2,7 +2,7 @@
 Data Structures and Algorithms for Fun  
 请问您今天要来点算法吗？
 
-1. Skip List 跳跃列表  
+1. Skip List
    - Wiki: https://en.wikipedia.org/wiki/Skip_list
    - My Blog: http://www.jianshu.com/p/fcd18946994e
 
@@ -13,3 +13,6 @@ Data Structures and Algorithms for Fun
 3. Union Find Set
    - Wiki：https://en.wikipedia.org/wiki/Disjoint-set_data_structure
    - My Blog：http://www.jianshu.com/p/b5b8d488266e
+
+4. Trie
+   - Wiki：https://en.wikipedia.org/wiki/Trie

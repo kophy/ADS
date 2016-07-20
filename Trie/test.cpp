@@ -9,19 +9,21 @@
 using namespace std;
 
 TEST_CASE("Testing Trie") {
+    // set up
+    Trie *t = new Trie();
+
+    // different sections
     SECTION("Search an existent word.") {
-        Trie *t = new Trie();
-        string word = "abadon";
+        string word = "abandon";
         t->insert(word);
         REQUIRE(t->search(word) == true);
-        delete t;
+    }
+    SECTION("Search a nonexistent word.") {
+        string word = "abandon";
+        REQUIRE(t->search(word) == false);
     }
 
-    SECTION("Search a nonexistent word.") {
-        Trie *t = new Trie();
-        string word = "abadon";
-        REQUIRE(t->search(word) == false);
-        delete t;
-    }
+    // tear down
+    delete t;
 }
 

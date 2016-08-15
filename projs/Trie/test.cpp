@@ -4,7 +4,7 @@
 #include "Trie.h"
 
 #define CATCH_CONFIG_MAIN
-#include "catch.hpp"
+#include "../../libs/catch.hpp"
 
 using namespace std;
 

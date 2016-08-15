@@ -3,16 +3,14 @@ Data Structures and Algorithms for Fun
 请问您今天要来点算法吗？
 
 1. Skip List
-   - Wiki: https://en.wikipedia.org/wiki/Skip_list
-   - My Blog: http://www.jianshu.com/p/fcd18946994e
-
+    wiki: https://en.wikipedia.org/wiki/Skip_list
+    *completed on 2016/02/07*
 2. Bloom Filter
-  - Wiki： https://en.wikipedia.org/wiki/Bloom_filter
-  - My Blog： http://www.jianshu.com/p/8193d7dc8348
-
+    wiki: https://en.wikipedia.org/wiki/Bloom_filter
+    *completed on 2016/03/01*    
 3. Union Find Set
-   - Wiki：https://en.wikipedia.org/wiki/Disjoint-set_data_structure
-   - My Blog：http://www.jianshu.com/p/b5b8d488266e
-
+    wiki: https://en.wikipedia.org/wiki/Disjoint-set_data_structure
+    *completed on 2016/04/30*
 4. Trie
-   - Wiki：https://en.wikipedia.org/wiki/Trie
+    wiki: https://en.wikipedia.org/wiki/Trie
+    *completed on 2016/07/21*

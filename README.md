@@ -14,3 +14,6 @@ Data Structures and Algorithms for Fun
 4. Trie
     wiki: https://en.wikipedia.org/wiki/Trie  
     *completed on 2016/07/21*
+5. Memory Pool
+    wiki: https://en.wikipedia.org/wiki/Memory_pool  
+    *completed on 2016/08/17*

@@ -16,4 +16,7 @@ Data Structures and Algorithms for Fun
     *completed on 2016/07/21*
 5. Memory Pool
     wiki: https://en.wikipedia.org/wiki/Memory_pool  
-    *completed on 2016/08/17*
+    *completed on 2016/08/17*  
+6. Reservoir Sampling  
+    wiki: https://en.wikipedia.org/wiki/Reservoir_sampling  
+    *completed on 2016/11/13*

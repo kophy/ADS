@@ -19,4 +19,7 @@ Data Structures and Algorithms for Fun
     *completed on 2016/08/17*  
 6. Reservoir Sampling  
     wiki: https://en.wikipedia.org/wiki/Reservoir_sampling  
-    *completed on 2016/11/13*
+    *completed on 2016/11/13*  
+7. AVL Tree  
+    wiki: https://en.wikipedia.org/wiki/AVL_tree  
+    *completed on 2016/12/10*

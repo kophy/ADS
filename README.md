@@ -22,4 +22,7 @@ Data Structures and Algorithms for Fun
     *completed on 2016/11/13*  
 7. AVL Tree  
     wiki: https://en.wikipedia.org/wiki/AVL_tree  
-    *completed on 2016/12/10*
+    *completed on 2016/12/10*  
+8. XOR Linked List  
+    wiki: https://en.wikipedia.org/wiki/XOR_linked_list  
+    *completed on 2016/12/11*  

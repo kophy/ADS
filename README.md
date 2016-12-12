@@ -26,3 +26,6 @@ Data Structures and Algorithms for Fun
 8. XOR Linked List  
     wiki: https://en.wikipedia.org/wiki/XOR_linked_list  
     *completed on 2016/12/11*  
+9. Ternary Search Tree  
+    wiki: https://en.wikipedia.org/wiki/Ternary_search_tree  
+    *completed on 2016/12/12*  

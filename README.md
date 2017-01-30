@@ -29,3 +29,6 @@ Data Structures and Algorithms for Fun
 9. Ternary Search Tree  
     wiki: https://en.wikipedia.org/wiki/Ternary_search_tree  
     *completed on 2016/12/12*  
+10. Fenwick Tree/Binary Indexed Tree  
+    wiki: https://en.wikipedia.org/wiki/Fenwick_tree  
+    *completed on 2017/01/29* 
